@@ -1,0 +1,25 @@
+.app {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipOJ_E4TNvdklxW1MDuPecTxVE6QRIaEdVZJXzl6=w1280-k');
+  position: absolute;
+  background-size: cover;
+  background-position: bottom;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.text {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
