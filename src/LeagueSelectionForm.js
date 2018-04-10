@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import TiltSelection from './TiltSelection';
+import DetailForm from './DetailForm';
 
 export default class LeagueSelectionForm extends Component {
   constructor() {
@@ -60,6 +61,13 @@ export default class LeagueSelectionForm extends Component {
         <TiltSelection
           data={this.getData()}
           onPress={this.handleTiltPress}
+        />
+      )
+    } else {
+      return (
+        <DetailForm
+          city={this.state.city}
+          state={this.state.league}
         />
       )
     }

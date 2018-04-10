@@ -12,7 +12,7 @@ const Main = () => {
       <div className='text-center btn-container'>
         <Link to='/signup'>
           <button className='btn-ghost' type='button'>
-            sign me up coach
+            Join A League Today!
           </button>
         </Link>
       </div>

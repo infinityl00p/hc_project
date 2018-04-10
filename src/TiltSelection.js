@@ -9,7 +9,7 @@ const TiltSelection = (props) => {
         const colors = ['red', 'blue', 'green', 'black'];
 
           return (
-            <Tilt key={index} className='tilt' options={{ max : 50 }}>
+            <Tilt key={index} className='tilt' options={{ max : 25 }}>
               <div className='tilt-inner' onClick={() => props.onPress(data)}>
                 <div className={`overlay ${colors[index%4]}`} />
                 <p className='tilt-text text-center'>{data}</p>

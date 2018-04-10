@@ -22,11 +22,15 @@ body {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 /***********************
       Header Styles
 ***********************/
 .header {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 /***********************
@@ -46,7 +50,7 @@ body {
   color: #fff;
   padding: 10px 20px;
   background-color: transparent;
-  transition: 500ms ease;
+  transition: 300ms ease;
 }
 
 .btn-ghost:hover {
@@ -145,6 +149,23 @@ body {
   font-weight: 100;
   font-size: 20px;
   padding-top: 45%;
+}
+
+/***********************
+      Form
+***********************/
+input, select {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 50px!important;
+  margin: 20px;
+}
+
+select {
+  margin-bottom: 40px;
 }
 
 /***********************
